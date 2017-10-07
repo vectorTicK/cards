@@ -69,7 +69,7 @@ function openfile() {
 ```downloadForJS()```函数是保存html为图片，下面会具体讲。
 ### 3. 保存网页元素为图像
 
-代码实现完全是百度后 拿来主义了,主要是用了html2canvas这个库，需要自行下载。里面具体实现的一些参数每太研究具体是干什么的，试了可以用就没管了。
+代码实现完全是百度后 拿来主义了,主要是用了html2canvas这个库，需要自行下载。里面具体实现的一些参数没太研究具体是干什么的，试了可以用就没管了。
 ``` javascript
 function downloadForJS(fileName) {
 	//使用html2canvas 转换html为canvas
