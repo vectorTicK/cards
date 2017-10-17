@@ -87,4 +87,3 @@ onrendered: function(canvas) { canvas.id = "mycanvas";
 还有一个关键问题，上面这段代码如果是直接用浏览器打开本地html文件，是不能完整的保存下网页元素的，比如img就不会保存下来。必须建一个web服务器访问功能就正常了。
 
 至此，整个功能就实现了。
-先克隆下来
